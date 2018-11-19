@@ -8,6 +8,3 @@ author:
 homepage: https://github.com/flextype-plugins/site-url
 bugs: https://github.com/flextype-plugins/site-url/issues
 license: MIT
-
-# Plugin settings
-enabled: true
