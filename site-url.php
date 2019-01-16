@@ -20,7 +20,7 @@ use Flextype\Component\{Event\Event, Http\Http};
 Event::addListener('onShortcodesInitialized', function () {
 
     // Shortcode: [site_url]
-    Content::shortcode()->addHandler('site_url', function() {
+    Entries::shortcode()->addHandler('site_url', function() {
         return Http::getBaseUrl();
     });
 });
